@@ -36,7 +36,8 @@ const App = () => {
   };
   return (
     
-    <div className="matrix">
+    <div className='main-box'>
+<div className="matrix">
     {colors.map((color, index) => (
       <div
         key={index}
@@ -46,6 +47,8 @@ const App = () => {
       ></div>
     ))}
   </div>
+
+    </div>
   )
 }
 
